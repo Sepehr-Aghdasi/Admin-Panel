@@ -1,0 +1,47 @@
+.counter i {
+      float: left;
+      font-size: 40px;
+      margin: 10px 0px 0px 20px;
+}
+.counter .circle {
+      height: 70px;
+      width: 70px;;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+}
+.circle div {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+}
+.circle div p {
+    margin-top: 17px;
+}
+.chart-view{
+      padding: 80px;
+}
+@property --num {
+      syntax: "<integer>";
+      initial-value: 65;
+      inherits: false;
+}
+
+.circle p{
+      animation: counter 5s;
+      counter-reset: num var(--num);
+}
+.circle p::after {
+      content: counter(num);
+}
+
+@keyframes counter {
+      from {
+            --num: 0;
+      }
+      to {
+            --num: 65;
+      }
+}

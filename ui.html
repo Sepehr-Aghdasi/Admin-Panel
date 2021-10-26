@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!-- start 1400/05/26  -->
+<html lang="fa">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="styles/style.css" />
+            <link rel="stylesheet" href="styles/ui.css" />
+            <link
+                  rel="stylesheet"
+                  href="assets/fontawesome/fontawesome-free-5.15.4-web/css/all.min.css"
+            />
+            <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css"
+            />
+            <!-- https://cdnjs.com/libraries/Chart.js/2.9.4 -->
+            <title>عناصر UI</title>
+      </head>
+      <body class="overlay-scrollbar">
+            <!-- navbar -->
+            <div class="navbar">
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                              <a href="#" class="nav-link">
+                                    <i class="fas fa-bars" onclick="collapseSidebar()"></i>
+                              </a>
+                        </li>
+                        <li class="nav-item">
+                              <img
+                                    src="assets/images/AT-pro-black.png"
+                                    alt="business-logo"
+                                    class="logo logo-light"
+                              />
+                              <img
+                                    src="assets/images/AT-pro-white.png"
+                                    alt="logo"
+                                    class="logo logo-dark"
+                              />
+                        </li>
+                  </ul>
+                  <form action="" class="navbar-search">
+                        <input
+                              type="text"
+                              name="search"
+                              class="navbar-search-input"
+                              placeholder="هر چه دل تنگت میخواد بسرچ...."
+                        />
+                        <i class="fas fa-search"></i>
+                  </form>
+                  <!-- left of navbar -->
+                  <ul class="navbar-nav nav-left">
+                        <li class="nav-item">
+                              <a href="#" class="nav-link" onclick="switchTheme()">
+                                    <i class="fas fa-moon dark-icon"></i>
+                                    <i class="fas fa-sun light-icon"></i>
+                              </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                              <a href="#" class="nav-link">
+                                    <i
+                                          class="fas fa-bell dropdown-toggle"
+                                          data-toggle="notification-menu"
+                                    ></i>
+                                    <span class="navbar-badge">15</span>
+                              </a>
+                              <ul id="notification-menu" class="dropdown-menu notification-menu">
+                                    <div class="dropdown-menu-header">
+                                          <span> پیام ها </span>
+                                    </div>
+                                    <div
+                                          class="
+                                                dropdown-menu-content
+                                                overlay-scrollbar
+                                                scrollbar-hover
+                                          "
+                                    >
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                    </div>
+                                    <div class="dropdown-menu-footer">
+                                          <span> دیدن همه پیام ها </span>
+                                    </div>
+                              </ul>
+                        </li>
+                        <li class="nav-item">
+                              <div class="user-image dropdown">
+                                    <img
+                                          src="assets/images/tuat.jpg"
+                                          alt="User image"
+                                          class="dropdown-toggle"
+                                          data-toggle="user-menu"
+                                    />
+                                    <ul id="user-menu" class="dropdown-menu">
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-user-tie"></i>
+                                                      </div>
+                                                      <span> پروفایل </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-cog"></i>
+                                                      </div>
+                                                      <span> تنظیمات </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-credit-card"></i>
+                                                      </div>
+                                                      <span> پرداختی </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-spinner"></i>
+                                                      </div>
+                                                      <span> پروژه ها </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-sign-out-alt"></i>
+                                                      </div>
+                                                      <span> خروج </span>
+                                                </a>
+                                          </li>
+                                    </ul>
+                              </div>
+                        </li>
+                  </ul>
+            </div>
+            <!-- End navbar -->
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                  <ul class="sidebar-nav">
+                        <li class="sidebar-nav-item">
+                              <a href="index.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fab fa-accusoft"></i>
+                                    </div>
+                                    <span> داشبورد 1</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="index2.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-tachometer-alt"></i>
+                                    </div>
+                                    <span> داشبورد 2 </span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="ui.html" class="sidebar-nav-link active">
+                                    <div>
+                                          <i class="fas fa-tasks"></i>
+                                    </div>
+                                    <span>عناصر UI</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="pages.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-spinner"></i>
+                                    </div>
+                                    <span>صفحات</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="error-pages.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <span>صفحات خطا</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-bug"></i>
+                                    </div>
+                                    <span>دسته بندی</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <span>کامنت</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-book-open"></i>
+                                    </div>
+                                    <span>کاربران</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-adjust"></i>
+                                    </div>
+                                    <span>دوره ها</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fab fa-algolia"></i>
+                                    </div>
+                                    <span>مقالات</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-audio-description"></i>
+                                    </div>
+                                    <span>تنظیمات</span>
+                              </a>
+                        </li>
+                  </ul>
+            </div>
+            <!-- End sidebar -->
+            <!-- Main content -->
+            <div class="wrapper">
+                  <div class="row">
+                        <!-- alerts Area -->
+                        <div class="col-12 col-m-12 col-sm-12">
+                              <div class="counter bg-white ui-styles">
+                                    <h3>
+                                          <i class="far fa-comments color-black"></i>پیام ها و alert
+                                          ها
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div class="portlet-body">
+                                          <div class="alert alert-success">
+                                                <i class="fas fa-check-circle"></i>
+                                                <strong>تبریک! </strong>
+                                                عملیات موردنظر شما با موفقیت انجام شد.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-info">
+                                                <i class="fas fa-info-circle"></i>
+                                                <strong>درسته! </strong>
+                                                عملیات مورد نظر شما در حال انجام است.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-warning">
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                                <strong>اخطار! </strong>
+                                                همه داده های ورودی را به دقت بررسی کنید، در صورت
+                                                تائید عملیات قابل برگشت نیست.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-danger">
+                                                <i class="far fa-times-circle"></i>
+                                                <strong>خطا! </strong>
+                                                عملیات مورد نظر شما ناموفق بود.
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-m-12 col-sm-12">
+                              <div class="counter bg-white ui-styles">
+                                    <h3>
+                                          <i class="far fa-comments color-black"></i>
+                                          پیام و Alert به صورت رنگی و fill
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div class="portlet-body">
+                                          <div class="alert alert-success fill">
+                                                <i class="fas fa-check-circle"></i>
+                                                <strong>تبریک! </strong>
+                                                عملیات موردنظر شما با موفقیت انجام شد.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-info fill">
+                                                <i class="fas fa-info-circle"></i>
+                                                <strong>درسته! </strong>
+                                                عملیات مورد نظر شما در حال انجام است.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-warning fill">
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                                <strong>اخطار! </strong>
+                                                همه داده های ورودی را به دقت بررسی کنید، در صورت
+                                                تائید عملیات قابل برگشت نیست.
+                                          </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                          <div class="alert alert-danger fill">
+                                                <i class="far fa-times-circle"></i>
+                                                <strong>خطا! </strong>
+                                                عملیات مورد نظر شما ناموفق بود.
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <!-- buttons Area-->
+                        <div class="col-12 col-m-12 col-sm-12">
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه های معمولی
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default">دکمه ساده</button>
+                                          <button class="btn btn-primary">دکمه اصلی</button>
+                                          <button class="btn btn-secondary">دکمه کمکی</button>
+                                          <button class="btn btn-info">دکمه پیام</button>
+                                          <button class="btn btn-success">دکمه موفقیت</button>
+                                          <button class="btn btn-warning">دکمه اخطار</button>
+                                          <button class="btn btn-danger">دکمه خطا</button>
+                                    </div>
+                              </div>
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه با گوشه منحنی curve
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default curve">دکمه ساده</button>
+                                          <button class="btn btn-primary curve">دکمه اصلی</button>
+                                          <button class="btn btn-secondary curve">دکمه کمکی</button>
+                                          <button class="btn btn-info curve">دکمه پیام</button>
+                                          <button class="btn btn-success curve">دکمه موفقیت</button>
+                                          <button class="btn btn-warning curve">دکمه اخطار</button>
+                                          <button class="btn btn-danger curve">دکمه خطا</button>
+                                    </div>
+                              </div>
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه با گوشه گرد round
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default round">دکمه ساده</button>
+                                          <button class="btn btn-primary round">دکمه اصلی</button>
+                                          <button class="btn btn-secondary round">دکمه کمکی</button>
+                                          <button class="btn btn-info round">دکمه پیام</button>
+                                          <button class="btn btn-success round">دکمه موفقیت</button>
+                                          <button class="btn btn-warning round">دکمه اخطار</button>
+                                          <button class="btn btn-danger round">دکمه خطا</button>
+                                    </div>
+                              </div>
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه های فعال Hover
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default round">دکمه ساده</button>
+                                          <button class="btn btn-primary round">دکمه اصلی</button>
+                                          <button class="btn btn-secondary round">دکمه کمکی</button>
+                                          <button class="btn btn-info round">دکمه پیام</button>
+                                          <button class="btn btn-success round">دکمه موفقیت</button>
+                                          <button class="btn btn-warning round">دکمه اخطار</button>
+                                          <button class="btn btn-danger round">دکمه خطا</button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-m-12 col-sm-12">
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه گرد با آیکون
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-primary btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-secondary btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-info btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-success btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-warning btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-danger btn-icon round">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-m-12 col-sm-12">
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          دکمه گوشه منحنی با آیکون
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <button class="btn btn-default btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-primary btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-secondary btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-info btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-success btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-warning btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                          <button class="btn btn-danger btn-icon curve">
+                                                <i class="fas fa-cart-plus"></i>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-m-12 col-sm-12">
+                              <div class="counter bg-white">
+                                    <h3 class="color-black">
+                                          <i class="fas fa-cogs color-black"></i>
+                                          مجموعه دکمه ها
+                                    </h3>
+                                    <hr style="width: 50%; color: black; margin: auto" />
+                                    <div div class="portlet-body">
+                                          <div class="btn-group">
+                                                <button class="btn btn-primary">1</button>
+                                                <button class="btn btn-primary">2</button>
+                                                <button class="btn btn-primary">3</button>
+                                                <button class="btn btn-primary">4</button>
+                                          </div>
+                                    </div>
+                                    <div div class="portlet-body">
+                                          <div class="btn-group">
+                                                <button class="btn btn-success round">1</button>
+                                                <button class="btn btn-success round">2</button>
+                                                <button class="btn btn-success round">3</button>
+                                                <button class="btn btn-success round">4</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <!-- Accordion Area -->
+
+                  <div class="col-12 col-m-12 col-sm-12">
+                        <div id="container"><p>آکاردئون</p></div>
+                        <div id="accordion-wraper">
+                              <button class="accordionName">گروه(1)</button>
+                              <div class="panel">
+                                    <h2>
+                                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                    </h2>
+                                    <ul>
+                                          <li>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                                صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                                                و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                                لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                                                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                                                باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                                                آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا
+                                                با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+                                                علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                                                ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                                                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به
+                                                پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                                                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                                                اساسا مورد استفاده قرار گیرد.
+                                          </li>
+                                    </ul>
+                              </div>
+                              <button class="accordionName">گروه(2)</button>
+                              <div class="panel">
+                                    <h2>
+                                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                    </h2>
+                                    <ul>
+                                          <li>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                                صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                                                و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                                لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                                                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                                                باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                                                آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا
+                                                با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+                                                علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                                                ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                                                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به
+                                                پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                                                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                                                اساسا مورد استفاده قرار گیرد.
+                                          </li>
+                                    </ul>
+                              </div>
+                              <button class="accordionName">گروه(3)</button>
+                              <div class="panel">
+                                    <h2>
+                                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                    </h2>
+                                    <ul>
+                                          <li>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                                صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                                                و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                                لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                                                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                                                باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                                                آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا
+                                                با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+                                                علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                                                ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                                                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به
+                                                پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                                                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                                                اساسا مورد استفاده قرار گیرد.
+                                          </li>
+                                    </ul>
+                              </div>
+                        </div>
+                  </div>
+                  <!-- End main content -->
+            </div>
+      </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+<script src="js/index.js"></script>

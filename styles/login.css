@@ -1,0 +1,166 @@
+body {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1029%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M62.14 897.88a40.5 40.5 0 1 0 79.5 15.52z' stroke='rgba(144%2c 238%2c 144%2c 1)'%3e%3c/path%3e%3cpath d='M974.02 383.31L989.35 383.31L989.35 398.64L974.02 398.64z' fill='rgba(255%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M862.35 620.31 a14.98 14.98 0 1 0 29.96 0 a14.98 14.98 0 1 0 -29.96 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1323.19 601.75 a35.02 35.02 0 1 0 70.04 0 a35.02 35.02 0 1 0 -70.04 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1500.64 540.76 a105.84 105.84 0 1 0 211.68 0 a105.84 105.84 0 1 0 -211.68 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M322.52 410.92L404.2 410.92L404.2 492.6L322.52 492.6z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1242.12 745.96L1296.37 745.96L1296.37 768.28L1242.12 768.28z' fill='rgba(255%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1906.32 111.08L1928.17 111.08L1928.17 179.13L1906.32 179.13z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1532.29 773.56 a56.7 56.7 0 1 0 113.4 0 a56.7 56.7 0 1 0 -113.4 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M254.72 668.44a64.26 64.26 0 1 0 112.93 61.34z' fill='rgba(255%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1584.1 42.54 a11.96 11.96 0 1 0 23.92 0 a11.96 11.96 0 1 0 -23.92 0z' stroke='rgba(144%2c 238%2c 144%2c 1)'%3e%3c/path%3e%3cpath d='M896.08 329.23a12.64 12.64 0 1 0 24.34-6.82z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1750.41 443.25L1815.26 443.25L1815.26 508.1L1750.41 508.1z' fill='rgba(144%2c 238%2c 144%2c 1)'%3e%3c/path%3e%3cpath d='M2.96 168.38L38.75 168.38L38.75 204.17L2.96 204.17z' fill='rgba(255%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1739.12 527.8L1846.37 527.8L1846.37 635.05L1739.12 635.05z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1220.65 973.41a78.24 78.24 0 1 0 141.16 67.52z' fill='rgba(144%2c 238%2c 144%2c 1)'%3e%3c/path%3e%3cpath d='M53.23 942.17L128.82 942.17L128.82 1017.76L53.23 1017.76z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M449.23 541.18 a32.46 32.46 0 1 0 64.92 0 a32.46 32.46 0 1 0 -64.92 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M566.72 421.29 a58.05 58.05 0 1 0 116.1 0 a58.05 58.05 0 1 0 -116.1 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1592.18 40.25 a104.64 104.64 0 1 0 209.28 0 a104.64 104.64 0 1 0 -209.28 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M979.27 195.86L1075.31 195.86L1075.31 291.9L979.27 291.9z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M835 1002.53 a71.62 71.62 0 1 0 143.24 0 a71.62 71.62 0 1 0 -143.24 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1608.37 494.32L1638.71 494.32L1638.71 570.31L1608.37 570.31z' stroke='rgba(144%2c 238%2c 144%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1029'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.row div {
+      background: linear-gradient(#141e30, #243b55);
+      margin: auto;
+      text-align: center;
+}
+.login-box {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+}
+
+.login-box h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+}
+
+.login-box .user-box {
+      position: relative;
+}
+
+.login-box .user-box input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+}
+.login-box .user-box label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      pointer-events: none;
+      transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+      top: -20px;
+      right: 0;
+      color: #03e9f4;
+      font-size: 12px;
+}
+
+.login-box form a {
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #03e9f4;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 40px;
+      letter-spacing: 4px;
+}
+
+.login-box a:hover {
+      background: #03e9f4;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.login-box a span {
+      position: absolute;
+      display: block;
+}
+
+.login-box a span:nth-child(1) {
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #03e9f4);
+      animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+      0% {
+            left: -100%;
+      }
+      50%,
+      100% {
+            left: 100%;
+      }
+}
+
+.login-box a span:nth-child(2) {
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent, #03e9f4);
+      animation: btn-anim2 1s linear infinite;
+      animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+      0% {
+            top: -100%;
+      }
+      50%,
+      100% {
+            top: 100%;
+      }
+}
+
+.login-box a span:nth-child(3) {
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg, transparent, #03e9f4);
+      animation: btn-anim3 1s linear infinite;
+      animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+      0% {
+            right: -100%;
+      }
+      50%,
+      100% {
+            right: 100%;
+      }
+}
+
+.login-box a span:nth-child(4) {
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg, transparent, #03e9f4);
+      animation: btn-anim4 1s linear infinite;
+      animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+      0% {
+            bottom: -100%;
+      }
+      50%,
+      100% {
+            bottom: 100%;
+      }
+}

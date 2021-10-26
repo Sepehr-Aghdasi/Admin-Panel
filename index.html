@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!-- start 1400/05/23  -->
+<html lang="fa">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="styles/style.css" />
+            <link
+                  rel="stylesheet"
+                  href="assets/fontawesome/fontawesome-free-5.15.4-web/css/all.min.css"
+            />
+            <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css"
+            />
+            <!-- https://cdnjs.com/libraries/Chart.js/2.9.4 -->
+            <title>داشبورد 1</title>
+      </head>
+      <body class="overlay-scrollbar">
+            <!-- navbar -->
+            <div class="navbar">
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                              <a href="#" class="nav-link">
+                                    <i class="fas fa-bars" onclick="collapseSidebar()"></i>
+                              </a>
+                        </li>
+                        <li class="nav-item">
+                              <img
+                                    src="assets/images/AT-pro-black.png"
+                                    alt="business-logo"
+                                    class="logo logo-light"
+                              />
+                              <img
+                                    src="assets/images/AT-pro-white.png"
+                                    alt="logo"
+                                    class="logo logo-dark"
+                              />
+                        </li>
+                  </ul>
+                  <form action="" class="navbar-search">
+                        <input
+                              type="text"
+                              name="search"
+                              class="navbar-search-input"
+                              placeholder="هر چه دل تنگت میخواد بسرچ...."
+                        />
+                        <i class="fas fa-search"></i>
+                  </form>
+                  <!-- left of navbar -->
+                  <ul class="navbar-nav nav-left">
+                        <li class="nav-item">
+                              <a href="#" class="nav-link" onclick="switchTheme()">
+                                    <i class="fas fa-moon dark-icon"></i>
+                                    <i class="fas fa-sun light-icon"></i>
+                              </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                              <a href="#" class="nav-link">
+                                    <i
+                                          class="fas fa-bell dropdown-toggle"
+                                          data-toggle="notification-menu"
+                                    ></i>
+                                    <span class="navbar-badge">15</span>
+                              </a>
+                              <ul id="notification-menu" class="dropdown-menu notification-menu">
+                                    <div class="dropdown-menu-header">
+                                          <span> پیام ها </span>
+                                    </div>
+                                    <div
+                                          class="
+                                                dropdown-menu-content
+                                                overlay-scrollbar
+                                                scrollbar-hover
+                                          "
+                                    >
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-tasks"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-gift"></i>
+                                                      </div>
+                                                      <span>
+                                                            لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ
+                                                            <br />
+                                                            <span> 1400/05/22 </span>
+                                                      </span>
+                                                </a>
+                                          </li>
+                                    </div>
+                                    <div class="dropdown-menu-footer">
+                                          <span> دیدن همه پیام ها </span>
+                                    </div>
+                              </ul>
+                        </li>
+                        <li class="nav-item">
+                              <div class="user-image dropdown">
+                                    <img
+                                          src="assets/images/tuat.jpg"
+                                          alt="User image"
+                                          class="dropdown-toggle"
+                                          data-toggle="user-menu"
+                                    />
+                                    <ul id="user-menu" class="dropdown-menu">
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-user-tie"></i>
+                                                      </div>
+                                                      <span> پروفایل </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-cog"></i>
+                                                      </div>
+                                                      <span> تنظیمات </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-credit-card"></i>
+                                                      </div>
+                                                      <span> پرداختی </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-spinner"></i>
+                                                      </div>
+                                                      <span> پروژه ها </span>
+                                                </a>
+                                          </li>
+                                          <li class="dropdown-menu-item">
+                                                <a href="#" class="dropdown-menu-link">
+                                                      <div>
+                                                            <i class="fas fa-sign-out-alt"></i>
+                                                      </div>
+                                                      <span> خروج </span>
+                                                </a>
+                                          </li>
+                                    </ul>
+                              </div>
+                        </li>
+                  </ul>
+            </div>
+            <!-- End navbar -->
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                  <ul class="sidebar-nav">
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link active">
+                                    <div>
+                                          <i class="fab fa-accusoft"></i>
+                                    </div>
+                                    <span> داشبورد 1 </span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="index2.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-tachometer-alt"></i>
+                                    </div>
+                                    <span> داشبورد 2</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="ui.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-tasks"></i>
+                                    </div>
+                                    <span>عناصر UI</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-spinner"></i>
+                                    </div>
+                                    <span>صفحات</span>
+                                    <!-- <ul class="sidebar-dropdown">
+                                          <li><a href="#">Lorem ipsum</a></li>
+                                          <li><a href="#">ipsum dolor</a></li>
+                                          <li><a href="#">dolor ipsum</a></li>
+                                          <li><a href="#">amet consectetur</a></li>
+                                          <li><a href="#">ipsum dolor sit</a></li>
+                                    </ul> -->
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="error-pages.html" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <span>صفحات خطا</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-bug"></i>
+                                    </div>
+                                    <span>دسته بندی</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <span>کامنت</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-book-open"></i>
+                                    </div>
+                                    <span>کاربران</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-adjust"></i>
+                                    </div>
+                                    <span>دوره ها</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fab fa-algolia"></i>
+                                    </div>
+                                    <span>مقالات</span>
+                              </a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                              <a href="#" class="sidebar-nav-link">
+                                    <div>
+                                          <i class="fas fa-audio-description"></i>
+                                    </div>
+                                    <span>تنظیمات</span>
+                              </a>
+                        </li>
+                  </ul>
+            </div>
+            <!-- End sidebar -->
+            <!-- Main content -->
+            <div class="wrapper">
+                  <div class="row">
+                        <div class="col-3 col-m-6 col-sm-6">
+                              <div class="counter bg-primary">
+                                    <p>
+                                          <i class="fas fa-tasks"></i>
+                                    </p>
+                                    <h3>100+</h3>
+                                    <p>برای انجام وجود دارد</p>
+                              </div>
+                        </div>
+                        <div class="col-3 col-m-6 col-sm-6">
+                              <div class="counter bg-warning">
+                                    <p>
+                                          <i class="fas fa-spinner"></i>
+                                    </p>
+                                    <h3>100+</h3>
+                                    <p>در حال انجام است</p>
+                              </div>
+                        </div>
+                        <div class="col-3 col-m-6 col-sm-6">
+                              <div class="counter bg-success">
+                                    <p>
+                                          <i class="fas fa-check-circle"></i>
+                                    </p>
+                                    <h3>100+</h3>
+                                    <p>انجام شده است</p>
+                              </div>
+                        </div>
+                        <div class="col-3 col-m-6 col-sm-6">
+                              <div class="counter bg-danger">
+                                    <p>
+                                          <i class="fas fa-bug"></i>
+                                    </p>
+                                    <h3>100+</h3>
+                                    <p>مشکل وجود دارد</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-8 col-m-12 col-sm-12">
+                              <div class="card">
+                                    <div class="card-header">
+                                          <h3>میزکار</h3>
+                                          <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                    <div class="card-content">
+                                          <table>
+                                                <thead>
+                                                      <tr>
+                                                            <th>#</th>
+                                                            <th>پروژه ها</th>
+                                                            <th>مدیر</th>
+                                                            <th>وضعیت</th>
+                                                            <th>تحویل</th>
+                                                      </tr>
+                                                </thead>
+                                                <tbody>
+                                                      <tr>
+                                                            <td>1</td>
+                                                            <td>Vue</td>
+                                                            <td>سپهر اقدسی</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-success"></i>
+                                                                        تکمیل شد
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>2</td>
+                                                            <td>React</td>
+                                                            <td>سپهر اقدسی</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-primary"></i>
+                                                                        تکمیل شد
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>3</td>
+                                                            <td>Laravel</td>
+                                                            <td>محمدرضا خسروی</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-warning"></i>
+                                                                        در حال انجام
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>4</td>
+                                                            <td>Golang</td>
+                                                            <td>مهدی علایی</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-warning"></i>
+                                                                        در حال انجام
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>5</td>
+                                                            <td>django</td>
+                                                            <td>محمد سلامت</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-danger"></i>
+                                                                        با تاخیر
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>6</td>
+                                                            <td>pyhton</td>
+                                                            <td>امیر احمدی</td>
+                                                            <td>
+                                                                  <span class="dot">
+                                                                        <i class="bg-danger"></i>
+                                                                        با تاخیر
+                                                                  </span>
+                                                            </td>
+                                                            <td>1400/05/22</td>
+                                                      </tr>
+                                                </tbody>
+                                          </table>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-m-12 col-sm-12">
+                              <div class="card">
+                                    <div class="card-header">
+                                          <h3>نوار پیشرفت</h3>
+                                          <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                    <div class="card-content">
+                                          <div class="progress-wrapper">
+                                                <p>
+                                                      کمتر از 1 ساعت
+                                                      <span class="float-left">50%</span>
+                                                </p>
+                                                <div class="progress">
+                                                      <div
+                                                            class="bg-success"
+                                                            style="width: 50%"
+                                                      ></div>
+                                                </div>
+                                          </div>
+                                          <div class="progress-wrapper">
+                                                <p>
+                                                      بین 1 الی 3 ساعت
+                                                      <span class="float-left">60%</span>
+                                                </p>
+                                                <div class="progress">
+                                                      <div
+                                                            class="bg-primary"
+                                                            style="width: 60%"
+                                                      ></div>
+                                                </div>
+                                          </div>
+                                          <div class="progress-wrapper">
+                                                <p>
+                                                      بیشتر از 3 ساعت
+                                                      <span class="float-left">40%</span>
+                                                </p>
+                                                <div class="progress">
+                                                      <div
+                                                            class="bg-warning"
+                                                            style="width: 40%"
+                                                      ></div>
+                                                </div>
+                                          </div>
+                                          <div class="progress-wrapper">
+                                                <p>
+                                                      بیشتر از 6 ساعت
+                                                      <span class="float-left">20%</span>
+                                                </p>
+                                                <div class="progress">
+                                                      <div
+                                                            class="bg-danger"
+                                                            style="width: 20%"
+                                                      ></div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-12 col-m-12 col-sm-12">
+                              <div class="card">
+                                    <div class="card-header">
+                                          <h3>Chartjs</h3>
+                                    </div>
+                                    <div class="card-content">
+                                          <canvas id="myChart"></canvas>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <!-- End main content -->
+      </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+<script src="js/index.js"></script>

@@ -1,0 +1,212 @@
+.portlet-body {
+      margin: 10px;
+}
+.alert {
+      border-radius: 0;
+      background-color: #fff;
+      border-right-width: 3px;
+      border: 1px solid;
+      border-right: 7px solid;
+      padding: 15px;
+}
+.alert-success {
+      color: #8cc63f;
+      border-color: #8cc63f;
+}
+.alert-info {
+      color: #13a2a6;
+      border-color: #13a2a6;
+}
+.alert-warning {
+      color: #ffa500;
+      border-color: #ffa500;
+}
+.alert-danger {
+      color: #f55145;
+      border-color: #f55145;
+}
+.counter i {
+      margin: 5px 0px 0px 10px;
+      font-size: 25px;
+}
+.ui-styles {
+      color: #000;
+}
+.alert.fill {
+      color: #ffffff;
+      border: none;
+}
+.alert-success.fill {
+      background-color: #8cc63f;
+}
+.alert-info.fill {
+      background-color: #13a2a6;
+}
+.alert-warning.fill {
+      background-color: #ffa500;
+}
+.alert-danger.fill {
+      background-color: #f55145;
+}
+/* buttons */
+.btn {
+      font-size: 0.8rem;
+      border-radius: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border: none;
+      -webkit-transition: ease 0.3s all;
+      -ms-transition: ease 0.3s all;
+      -o-transition: ease 0.3s all;
+      transition: ease 0.3s all;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      color: #fff;
+      margin: 5px;
+}
+.btn-default {
+      background: #f1f1f1;
+      color: #000;
+}
+.btn-primary {
+      background: #14b9d6;
+}
+.btn-primary:hover {
+      background: #10869b;
+}
+.btn-secondary {
+      background-color: #6c757d;
+      border-color: #6c757d;
+}
+.btn-secondary:hover {
+      background-color: #3c4146;
+}
+.btn-info {
+      background-color: #0dcaf0;
+      border-color: #0dcaf0;
+}
+.btn-info:hover {
+      background-color: #0c7c92;
+}
+.btn-success {
+      background-color: #8cc63f;
+      border-color: #8cc63f;
+}
+.btn-success:hover {
+      background-color: #557927;
+}
+.btn-warning {
+      color: #000;
+      background-color: #ffc107;
+      border-color: #ffc107;
+}
+.btn-warning:hover {
+      background-color: #b98e0c;
+}
+.btn-danger {
+      color: #fff;
+      background-color: #dc3545;
+      border-color: #dc3545;
+}
+.btn-danger:hover {
+      background-color: #88212c;
+}
+.curve {
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+      border-radius: 6px;
+}
+.round {
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+      border-radius: 25px;
+}
+.btn-icon {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      line-height: 32px;
+      position: relative;
+}
+.btn-icon i {
+      font-size: 20px;
+      margin: auto;
+}
+.btn-group {
+      position: relative;
+      display: inline-flex;
+      vertical-align: middle;
+}
+/* Accordion Area */
+#container p {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 50px;
+}
+#accordion-wraper {
+      width: 70%;
+      margin: auto;
+      border-radius: 4px;
+      overflow: hidden;
+      border-bottom: 15px solid #2ba659;
+}
+.accordionName {
+      width: 100%;
+      padding: 40px;
+      font-size: 22px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: #38cc70;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+}
+
+.panel {
+      width: 100%;
+      height: 0;
+      background-color: #eeeeee;
+      text-align: justify;
+      box-sizing: border-box;
+      color: #000;
+      font-size: 15px;
+      overflow: hidden;
+      transition: 0.5s;
+      border: 1px solid #dddddd;
+}
+
+.panel h2 {
+      padding: 15px 0px 15px 20px;
+}
+.panel ul,
+p {
+      text-align: justify;
+      padding: 0px 30px 20px 50px;
+      list-style-type: none;
+}
+.panel li {
+      padding: 15px 0px 0px 0px;
+}
+.panel strong {
+      color: #ff3e00;
+}
